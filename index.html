@@ -343,25 +343,48 @@ At Silkroute Global, we take pride in being a trusted partner for builders, cont
     <div class="container d-flex justify-content-center">
         <div style="max-width: 600px; width: 100%;">
             <h2 class="text-center">Contact SilkRoute Global</h2>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                  <input type="hidden" name="access_key" value="f3be78c7-41f7-4488-ac7d-4915f0f610e7">
-                <div class="mb-3">
-                    <label class="form-label">Name</label>
-                    <input type="text" class="form-control" required>
-                </div>
+            <div style="width:100%; display:flex; justify-content:center; align-items:center;">
+  
+  <form id="sr-form" action="https://api.web3forms.com/submit" method="POST" novalidate
+        style="font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial;
+               background:#ffffff; padding:22px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06);
+               border:1px solid rgba(0,0,0,0.04); max-width:600px; width:100%; 
+               box-sizing:border-box; margin:auto;">
 
-                <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" required>
-                </div>
+    <input type="hidden" name="access_key" value="f3be78c7-41f7-4488-ac7d-4915f0f610e7">
 
-                <div class="mb-3">
-                    <label class="form-label">Message</label>
-                    <textarea class="form-control" rows="4" required></textarea>
-                </div>
+    <div style="text-align:center; margin-bottom:14px;">
+      <h2 style="margin:0; font-size:22px; color:#111; font-weight:600;">Contact SilkRoute Global</h2>
+    </div>
 
-                <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
-            </form>
+    <input id="name" name="name" type="text" required placeholder="Your full name"
+           style="display:block; width:100%; padding:12px 14px; margin-bottom:12px;
+                  border:1px solid #d0d7de; border-radius:8px; font-size:15px; color:#222;
+                  background:#fff; box-sizing:border-box;">
+
+    <input id="email" name="email" type="email" required placeholder="you@example.com"
+           style="display:block; width:100%; padding:12px 14px; margin-bottom:12px;
+                  border:1px solid #d0d7de; border-radius:8px; font-size:15px; color:#222;
+                  background:#fff; box-sizing:border-box;">
+
+    <textarea id="message" name="message" required placeholder="Write your message..."
+              style="display:block; width:100%; padding:12px 14px; margin-bottom:12px;
+                     border:1px solid #d0d7de; border-radius:8px; font-size:15px; color:#222;
+                     min-height:140px; resize:vertical; line-height:1.45; background:#fff;
+                     box-sizing:border-box;"></textarea>
+
+    <button type="submit"
+            style="display:block; width:100%; padding:12px 14px; border:0; border-radius:8px;
+                   background:linear-gradient(180deg,#0077b6,#006093); color:#fff; font-weight:600;
+                   cursor:pointer; font-size:15px; box-sizing:border-box;">
+      Submit Form
+    </button>
+
+  </form>
+
+</div>
+
+
         </div>
     </div>
 </section>
