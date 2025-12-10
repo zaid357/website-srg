@@ -568,3 +568,43 @@ body {
 .dropdown-menu ul a:hover {
     background: #084298 !important;
 }
+/* 📱 FULLY RESPONSIVE TOP HEADER FIX */
+@media (max-width: 768px) {
+
+    /* Topbar wrapper adjusts height and spacing */
+    .jse-topbar-wrapper {
+        padding: 5px 0;
+    }
+
+    /* Topbar becomes vertical stack */
+    .jse-topbar {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+        gap: 4px;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+
+    /* Text items fit nicely */
+    .jse-item {
+        font-size: 12px !important;
+        line-height: 16px;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        white-space: normal !important;
+    }
+
+    .jse-item i {
+        font-size: 14px;
+    }
+
+    /* Social Icons show as a row below */
+    .jse-social {
+        display: inline-block !important;
+        font-size: 16px;
+        margin: 0 6px;
+    }
+}
+
